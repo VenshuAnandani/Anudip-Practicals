@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class EmployeeManagementSystem {
     private static final String URL = "jdbc:mysql://localhost:3306/PROJECT_EMS";
-    private static final String USER = "root";
-    private static final String PASSWORD = "$Creativity1209!";
+    private static final String USER = env.getDBUser();;
+    private static final String PASSWORD = env.getDBPassword();
 
     public static void main(String[] args) {
         try {
