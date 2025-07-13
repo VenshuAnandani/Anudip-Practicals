@@ -1,2 +1,6 @@
+.gitignore
+
 /*/env.java
 *.class
+*.docx
+*.pdf
