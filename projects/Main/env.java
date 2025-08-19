@@ -4,6 +4,6 @@ class env {
     }
 
     public static String getDBPassword() {
-        return "$Creativity1209!";
+        return "password";
     }
 }
